@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
+import Hi from './components/Hi';
 import './App.css';
 
 function App() {
   return (
-    <div>
-        Hello <strong> Abdul Samad!</strong>
+    <div className="app">
+       <strong><Hi name= "Abdul Samad"/></strong>
         <h6>Frontend Developer</h6>
         <p>Expert in:</p>
         <ol>
